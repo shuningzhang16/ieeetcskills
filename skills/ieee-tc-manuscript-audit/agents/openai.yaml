@@ -1,0 +1,4 @@
+interface:
+  display_name: "IEEE 论文编辑与 LaTeX 审计"
+  short_description: "依据 IEEE 手册逐项审计论文，保留页码证据并区分未核实要求"
+  default_prompt: "使用 $ieee-tc-manuscript-audit 对当前论文进行只读审计，输出带手册页码、源码行号和最小修改建议的报告。"
